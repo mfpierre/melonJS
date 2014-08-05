@@ -52,7 +52,5 @@ game.PlayerEntity = me.Entity.extend({
 
         // check for collision with environment
         this.body.update();
-
-        return false;
     }
 });
